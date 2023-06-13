@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person>
+    <object type="student">
+        <Name>Makr</Name>
+        <address>
+            <city>Kiev</city>
+            <country>UA</country>
+            <postal>true</postal>
+            <zip>01001</zip>
+        </address>
+        <age>20</age>
+        <married>false</married>
+        <taxId null="true"/>
+        <contactNumbers>
+            <contact type="Home">
+                <number>444-444-44</number>
+            </contact>
+            <contact type="Office">
+                <number>555-555-55</number>
+            </contact>
+        </contactNumbers>
+        <exams>
+            <firstSemester>
+                <subject>Economic theory</subject>
+                <subject>Sociology</subject>
+            </firstSemester>
+            <passingScore>34.5</passingScore>
+            <secondSemester>
+                <subject>English</subject>
+                <subject>Psychology</subject>
+            </secondSemester>
+        </exams>
+        <favoriteSports>
+            <item>Golf</item>
+            <item>Basketball</item>
+        </favoriteSports>
+        <friends>
+            <friend name="Mary" age="22"/>
+            <friend name="Nik" age="20"/>
+        </friends>
+        <createdAt>2023-06-12 09:00:00 UTC</createdAt>
+        <createdBy>
+            <email>bob44@gmail.com</email>
+            <name>James Williams</name>
+        </createdBy>
+    </object>
+</person>

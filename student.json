@@ -1,0 +1,36 @@
+{
+	"Name": "Makr",
+	"age": 20,
+	"taxId": null,
+	"married": false,
+	"friends": ["Mary", 19, false, true],
+	"address": {
+		"country": "UA",
+		"city": "Kiev",
+		"zip": "01001",
+		"postal": true
+	},
+	"contactNumbers": [{
+			"type": "Home",
+			"number": "444-444-44"
+		},
+		{
+			"type": "Office",
+			"number": "555-555-55"
+		}
+	],
+	"favoriteSports": [
+		"Golf",
+		"Basketball"
+	],
+	"exams": {
+		"firstSemester": ["Economic theory", "Sociology"],
+		"secondSemester": ["English", "Psychology"],
+		"passingScore": 34.5
+	},
+	"createdAt": "2023-06-12 09:00:00 UTC",
+	"createdBy": {
+		"name": "James Williams",
+		"email": "bob44@gmail.com"
+	}
+}
